@@ -1,7 +1,7 @@
 import "../App.css";
 import Projects from "./Projects";
 
-const BackImg = "https://via.placeholder.com/150"
+import BackImg from "../assets/images.jpg";
 
 export default function Portfolio() {
     return (

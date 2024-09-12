@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <>
             <div className="resume">
-                <a href="">Click Here to Download My Resume</a>
+                <a className="download" href="">Click Here to Download My Resume</a>
             </div>
             <div className="skillsList">
                 <h2>Front End Proficiencies</h2>

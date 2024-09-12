@@ -4,7 +4,7 @@ function Navigation() {
     const currentPath = useLocation().pathname;
 
     return (
-        <ul>
+        <ul className='navbar'>
             <Link 
             to="/portfolio"
             className={currentPath === '/portfolio' ? 'active' : ''}

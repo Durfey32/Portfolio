@@ -1,5 +1,5 @@
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 import App from './App';
@@ -16,12 +16,16 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        path: 'Portfolio',
-        element: <Portfolio />
+        path: '/',
+        element: <Author />
       },
       {
         path: 'author',
         element: <Author />
+      },
+      {
+        path: 'Portfolio',
+        element: <Portfolio />
       },
       {
         path: 'contact',

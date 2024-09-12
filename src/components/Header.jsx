@@ -4,7 +4,7 @@ import '../App.css';
 function Header() {
   return (
     <header>
-      <h1>Portfolio</h1>
+      <h1>Spencer Durfey</h1>
       <Navigation />
     </header>
   );
