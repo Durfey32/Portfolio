@@ -1,12 +1,12 @@
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouteProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 
 import App from './App';
 import Error from './components/Error';
 import Portfolio from './components/Portfolio';
-import Author from '.components/Author';
+import Author from './components/Author';
 import Contact from './components/Contact';
-
 import Resume from './components/Resume';
 
 const router = createBrowserRouter([
@@ -16,25 +16,25 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        path: '/Portfolio',
+        path: 'Portfolio',
         element: <Portfolio />
       },
       {
-        path: '/author',
+        path: 'author',
         element: <Author />
       },
       {
-        path: '/contact',
+        path: 'contact',
         element: <Contact />
       },
       {
-        path: '/resume',
+        path: 'resume',
         element: <Resume />
       }
 ],
   }
 ]);
 
-ReactDOM.creatRoot(document.getElementById('root')).render(
-  <RouteProvider router={router} />
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <RouterProvider router={router} />
 );
