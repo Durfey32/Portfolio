@@ -21,7 +21,7 @@ This portfolio showcases the projects I created during my Bootcamp experience, h
 
 ## Usage
 You can view the deployed portfolio site on Netlify: <br>
-https://spencer-durfey-portfolio.netlify.app/contact
+https://spencer-durfey-portfolio.netlify.app/
 
 
 
