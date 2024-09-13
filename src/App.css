@@ -1,3 +1,15 @@
+html {
+  background-image: url(./assets/background_forest.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+
+header h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 20px;
+}
 
 .navbar-text-color {
   color: white;
@@ -15,6 +27,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #3c649f;
 }
 
 .navbar a:hover {
@@ -74,7 +87,8 @@ img {
   display: block;
   height: 350px;
   width: 350px;
-  margin: 10px;
+  margin: 19px;
+  border: black px solid;
 }
 
 .projects {
@@ -93,10 +107,10 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  color: white;
+  color: rgb(188, 175, 247);
   border-radius: 20px;
   width: 300px;
-  height: 250px;
+  height: 325px;
   border: 2px solid black;
   margin: 10px;
   background-size: cover;
@@ -116,9 +130,10 @@ img {
 
 .projectbtn {
   color: white;
-  border: 5px double #e68507;
+  border: 5px double #14af1c;
   border-radius: 15px;
-  background-color: #e68507;
+  background: none;
+  background-color: #14af1c;
   text-align: center;
   padding: 10px;
   cursor: pointer;
@@ -133,7 +148,8 @@ img {
 .projectsCard h1 {
   font-size: 25px;
   text-align: center;
-  margin: 10px;
+  margin: 25px;
+  background-color: rgb(56, 90, 121);
 }
 
 form {
@@ -173,11 +189,11 @@ h2 {
 }
 
 .footer {
-  background-color: #E68507;
+  background-color: #8c69ad;
 }
 
 .footer button {
-  background-color: #FC9E4F;
+  background-color: #8c69ad;
   font-size: 18px;
   margin: 10px 10px;
 }
@@ -188,7 +204,7 @@ h2 {
 
 .button:hover {
   color: white;
-  background-color: #FC9E4F;
+  background-color: #5e199e;
   opacity: 70%;
 }
 
@@ -198,16 +214,20 @@ h2 {
   background-color: #3c649f;
   display: flex;
   flex-direction: column;
-  
+  text-align: center;
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 20px;
 }
 
+.skillsList ul {
+  list-style-type: none;
+}
+
 .download {
   color: rgb(2, 2, 2);
-  background-color: #e68507;
-  border: 5px double #e68507;
+  background-color: #008cff;
+  border: 5px double #008cff;
   border-radius: 15px;
   justify-content: center;
   cursor: pointer;
@@ -219,7 +239,6 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
 
 @media screen and (max-width: 800px) {
   .author-info {

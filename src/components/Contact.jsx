@@ -15,14 +15,21 @@ export default function Contact() {
 
         if (!user.value) {
             error.innerHTML = "Name is required";
+            error.style.color = "red";
+            error.style.textAlign = "center";
         } else if (!email.value || !validEmail(email.value)) {
             error.innerHTML = "Email is required";
+            error.style.color = "red";
+            error.style.textAlign = "center";
         } else if (!message.value) {
             error.innerHTML = "Message is required";
+            error.style.color = "red";
+            error.style.textAlign = "center";
         } else {
             user.value = "";
             email.value = "";
             message.value = "";
+            error.innerHTML = "";
             alert("Message sent successfully");
         }
     }
