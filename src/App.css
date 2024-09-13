@@ -91,6 +91,19 @@ img {
   border: black px solid;
 }
 
+.contact h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #6FAADD;
+  border-radius: 20px;
+  border-radius: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -175,6 +188,11 @@ form input {
 h2 {
   margin-top: 25px;
   text-align: center;
+  color: white;
+  background-color: #6FAADD;
+  border-radius: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .submit {

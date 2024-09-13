@@ -1,16 +1,18 @@
 import "../App.css";
 import Projects from "./Projects";
 
-import BackImg from "../assets/images.jpg";
+// import BackImg from "../assets/images.jpg";
 import GameCenter from "../assets/GameCenterScreen.png";
 import Readme from "../assets/readme.jpg";
 import VehicalBuilder from "../assets/vehicle-builder.png";
 import SQL from "../assets/sql.jpg";
+import Weather from "../assets/weather.jpg";
+import prework from "../assets/bowtie-cat.png";
 
 export default function Portfolio() {
     return (
         <>
-            <h2>Portfolio</h2>
+            <h2 className="portfolio">Portfolio</h2>
             <div className="projects">
                 <Projects
                     title="GameCenter"
@@ -33,14 +35,14 @@ export default function Portfolio() {
                     link="https://github.com/Durfey32/SQL_Employee_Tracker"
                 />
                 <Projects
-                    title="Placeholder 5"
-                    backgroundImg={BackImg}
-                    link="https://github.com"
+                    title="Weather-Dashboard"
+                    backgroundImg={Weather}
+                    link="https://github.com/Durfey32/Weather-Dashboard"
                 />
                 <Projects
-                    title="Placeholder 6"
-                    backgroundImg={BackImg}
-                    link="https://github.com"
+                    title="Prework-study-guide"
+                    backgroundImg={prework}
+                    link="https://github.com/Durfey32/Prework-study-guide"
                 />
             </div>
         </>
