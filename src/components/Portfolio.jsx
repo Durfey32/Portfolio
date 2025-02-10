@@ -10,7 +10,7 @@ import Weather from "../assets/weather.jpg";
 import prework from "../assets/bowtie-cat.png";
 import Workout from "../assets/workoutwithmentalhealth.png";
 import library from "../assets/library.jpg";
-import gamemap from "../assets/game-map.jpg";
+import gamemap from "../assets/Game-Map.jpg";
 import takeout from "../assets/takeout.jpg";
 import testing from "../assets/testing.jpg";
 import kanban from "../assets/kanban.jpg";
