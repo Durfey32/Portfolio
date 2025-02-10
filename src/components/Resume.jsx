@@ -6,7 +6,9 @@ export default function Resume() {
             <div className="resume">
                 <a className="download" href="/SpencerDurfeyResume.pdf" download="SpencerDurfeyResume.pdf">Click Here to Download My Resume</a>
             </div>
+
             <div className="skillsList">
+              <div className="skillsColumn">
         <h2>Front End Proficiencies</h2>
         <ul>
             <li>HTML</li>
@@ -36,7 +38,8 @@ export default function Resume() {
             <li>YAML</li>
             <li>APIs</li>
         </ul>
-
+        </div>
+            <div className="skillsColumn">
         <h2>Tools and Methodologies</h2>
         <ul>
             <li>Git</li>
@@ -59,7 +62,9 @@ export default function Resume() {
             <li>Web Accessibility</li>
             <li>Wireframing</li>
         </ul>
+         </div>
 
+         <div className="skillsColumn">
         <h2>Professional Skills</h2>
         <ul>
             <li>Problem-Solving</li>
@@ -76,6 +81,7 @@ export default function Resume() {
             <li>HPLC-MS</li>
             <li>Mass Spectrometer</li>
         </ul>
+        </div>
     </div>
         </>
     );
