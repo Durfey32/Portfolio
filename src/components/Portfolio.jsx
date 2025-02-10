@@ -11,6 +11,9 @@ import prework from "../assets/bowtie-cat.png";
 import Workout from "../assets/workoutwithmentalhealth.png";
 import library from "../assets/library.jpg";
 import gamemap from "../assets/game-map.jpg";
+import takeout from "../assets/takeout.jpg";
+import testing from "../assets/testing.jpg";
+import kanban from "../assets/kanban.jpg";
 
 export default function Portfolio() {
     return (
@@ -38,6 +41,11 @@ export default function Portfolio() {
                     link="https://github.com/Durfey32/DND-Game"
                 />
                 <Projects
+                    title="Takeout Restaurant Menu and Order System"
+                    backgroundImg={takeout}
+                    link="https://github.com/Durfey32/Takeout-Restaurant-Menu-and-Order-System"
+                />
+                <Projects
                     title="Good-Readme"
                     backgroundImg={Readme}
                     link="https://github.com/Durfey32/Good-Readme.com"
@@ -51,6 +59,16 @@ export default function Portfolio() {
                     title="Employee_Tracker"
                     backgroundImg={SQL}
                     link="https://github.com/Durfey32/SQL_Employee_Tracker"
+                />
+                <Projects
+                    title="Kanban-Board"
+                    backgroundImg={kanban}
+                    link="https://github.com/Durfey32/Kanban-Board"
+                />
+                 <Projects
+                    title="Tech-Quiz-Test-Suite"
+                    backgroundImg={testing}
+                    link="https://github.com/Durfey32/Tech-Quiz-Test-Suite"
                 />
                 <Projects
                     title="Weather-Dashboard"
