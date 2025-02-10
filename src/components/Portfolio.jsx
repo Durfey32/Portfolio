@@ -8,6 +8,9 @@ import VehicalBuilder from "../assets/vehicle-builder.png";
 import SQL from "../assets/sql.jpg";
 import Weather from "../assets/weather.jpg";
 import prework from "../assets/bowtie-cat.png";
+import Workout from "../assets/workoutwithmentalhealth.png";
+import library from "../assets/library.jpg";
+import gamemap from "../assets/game-map.jpg";
 
 export default function Portfolio() {
     return (
@@ -18,6 +21,21 @@ export default function Portfolio() {
                     title="GameCenter"
                     backgroundImg={GameCenter}
                     link="https://github.com/Durfey32/GameCenter"
+                />
+                <Projects
+                    title="Workout-with-Mental-Health"
+                    backgroundImg={Workout}
+                    link="https://github.com/Durfey32/Workout-with-Mental-Health"
+                />
+                <Projects 
+                    title="Book-Search-Engine"
+                    backgroundImg={library}
+                    link="https://github.com/Durfey32/Book-Search-Engine"
+                />
+                <Projects
+                    title="DND-Game"
+                    backgroundImg={gamemap}
+                    link="https://github.com/Durfey32/DND-Game"
                 />
                 <Projects
                     title="Good-Readme"
